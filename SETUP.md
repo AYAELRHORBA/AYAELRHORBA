@@ -1,12 +1,13 @@
-# Installation — GitHub Profile README
+# Installing the V2 GitHub profile
 
-1. On GitHub, create a **public** repository with the exact name **AYAELRHORBA** under account **AYAELRHORBA**.
-2. Add `README.md` at the root. Copy both SVG files into `assets/` preserving filenames and paths.
-3. Commit/push all three files on the default branch. GitHub displays this README on the profile Overview page.
-4. Verify animation display in GitHub web and mobile views.
-5. To edit the main headline, modify `assets/hero.svg`. To edit the pipeline diagram, modify `assets/pipeline.svg`.
-6. Keep external project links current when repository names change.
+Repository: `AYAELRHORBA/AYAELRHORBA` (the special public profile repository).
 
-**Technical note:** Profile READMEs support Markdown and referenced SVG files, not arbitrary JavaScript. CSS/SVG animation is used here; no photo or generated image is included. Motion-sensitive viewers may use reduced-motion settings. SVG text is static content and the visual only represents your engineering interests, not live telemetry.
+1. Replace the existing root `README.md` with the one in this package.
+2. Upload **all eight** `assets/*.svg` files to the `assets/` folder, preserving file names.
+3. Commit the changes and open https://github.com/AYAELRHORBA .
+4. The SVG animation is embedded using `<img>` elements. GitHub does not allow arbitrary JavaScript in profile READMEs; the moving elements use inline SVG/CSS animations.
+5. Check your display in desktop/light/dark/mobile and ensure links match the actual repository names.
 
-**Attribution:** The included profile identifies projects and skills without fabricating achievements or making claims about specific job titles. Review technologies to align with your actual experience before publishing.
+These animated illustrations are *original code*, not screenshots or generated images. No outside services or external image URLs are required for the visuals.
+
+**Note:** If you use CSS reduced-motion preferences, some animation sequences are intentionally disabled. GitHub may cache SVG images; refresh if an updated graphic does not appear immediately.
