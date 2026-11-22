@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="335" viewBox="0 0 1100 335" role="img" aria-label="AYA EL RHORBA — Building intelligent systems from data to deployment">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#070D1A"/><stop offset=".58" stop-color="#101D33"/><stop offset="1" stop-color="#0B1832"/></linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#67E8F9"/><stop offset=".5" stop-color="#60A5FA"/><stop offset="1" stop-color="#A78BFA"/></linearGradient>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#29405A" stroke-width=".7" opacity=".35"/></pattern>
+  <clipPath id="reveal"><rect x="67" y="118" width="0" height="70"><animate attributeName="width" from="0" to="940" dur="2.6s" fill="freeze"/></rect></clipPath>
+  <style>
+    text{font-family:Arial,Helvetica,sans-serif}
+    .pulse{animation:pulse 3.6s ease-in-out infinite}
+    .cursor{animation:blink .9s steps(1) infinite}
+    .beam{animation:scan 9s linear infinite}
+    .drift{animation:drift 7s ease-in-out infinite}
+    @keyframes pulse{0%,100%{opacity:.42}50%{opacity:1}}
+    @keyframes blink{50%{opacity:0}}
+    @keyframes scan{from{transform:translateX(-500px)}to{transform:translateX(1200px)}}
+    @keyframes drift{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+    @media(prefers-reduced-motion:reduce){.pulse,.cursor,.beam,.drift{animation:none}}
+  </style>
+</defs>
+<rect x=".5" y=".5" width="1099" height="334" rx="18" fill="url(#bg)" stroke="#254662"/>
+<rect x="1" y="1" width="1098" height="333" rx="17" fill="url(#grid)"/>
+<rect x="0" y="0" width="7" height="335" rx="3" fill="url(#accent)"/>
+<circle cx="1030" cy="80" r="86" stroke="#164E63" fill="none" opacity=".45" class="drift"/>
+<circle cx="1030" cy="80" r="52" stroke="#0891B2" fill="none" opacity=".45" class="pulse"/>
+<circle cx="1030" cy="80" r="17" fill="#67E8F9" opacity=".3" class="pulse"/>
+<path d="M970 80h120M1030 20v120" stroke="#67E8F9" opacity=".25"/>
+<g fill="#67E8F9" font-size="14" font-weight="600" letter-spacing="3"><text x="68" y="52">SYSTEM ONLINE <tspan fill="#94A3B8">/ PORTFOLIO INTERFACE</tspan></text></g>
+<circle cx="45" cy="46" r="5" fill="#22D3EE" class="pulse"/>
+<text x="68" y="100" font-size="21" letter-spacing="5" fill="#9FC1D6">AYA EL RHORBA</text>
+<g clip-path="url(#reveal)"><text x="63" y="173" font-size="51" font-weight="800" fill="url(#accent)" letter-spacing="-1.8">BUILDING INTELLIGENT SYSTEMS</text></g>
+<rect x="67" y="188" height="4" width="108" rx="2" fill="url(#accent)"/>
+<text x="68" y="239" font-size="21" fill="#E2E8F0">AI ENGINEERING <tspan fill="#5EA4BA">/</tspan> DATA SCIENCE <tspan fill="#5EA4BA">/</tspan> DATA ENGINEERING</text>
+<text x="68" y="287" font-size="15" fill="#94A3B8">From research and model development to scalable, real-world applications.</text>
+<text x="996" y="290" font-size="13" text-anchor="end" fill="#67E8F9" class="pulse">● ACTIVE</text>
+<path d="M0 310h400" stroke="url(#accent)" opacity=".28" stroke-width="2" class="beam"/>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="205" viewBox="0 0 1100 205" role="img" aria-label="Data to intelligence pipeline: Ingest, Engineer, Learn, Deploy, Monitor">
+<defs>
+ <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#09111F"/><stop offset="1" stop-color="#122238"/></linearGradient>
+ <linearGradient id="stroke"><stop stop-color="#22D3EE"/><stop offset=".5" stop-color="#818CF8"/><stop offset="1" stop-color="#22D3EE"/></linearGradient>
+ <style>
+ text{font-family:Arial,Helvetica,sans-serif}.dot{animation:dotPulse 1.5s ease-in-out infinite;filter:drop-shadow(0 0 4px #67e8f9)}.dot2{animation-delay:-.8s}.up{animation:glow 3s ease-in-out infinite}@keyframes dotPulse{0%,100%{opacity:.2;transform:translateX(0)}50%{opacity:1;transform:translateX(29px)}}@keyframes glow{0%,100%{opacity:.65}50%{opacity:1}}@media(prefers-reduced-motion:reduce){.dot,.dot2,.up{animation:none}}
+ </style>
+</defs>
+<rect x=".5" y=".5" width="1099" height="204" rx="18" fill="url(#bg)" stroke="#264562"/>
+<text x="38" y="43" fill="#91B6CB" font-size="14" letter-spacing="3">ENGINEERING WORKFLOW / END-TO-END</text>
+<g text-anchor="middle">
+  <rect x="34" y="80" width="174" height="74" rx="10" fill="#132A3E" stroke="#255A70"/><text x="121" y="124" fill="#E2E8F0" font-size="17" font-weight="bold">INGEST</text>
+  <rect x="248" y="80" width="174" height="74" rx="10" fill="#132A3E" stroke="#255A70"/><text x="335" y="124" fill="#E2E8F0" font-size="17" font-weight="bold">ENGINEER</text>
+  <rect x="462" y="80" width="174" height="74" rx="10" fill="#132A3E" stroke="#255A70"/><text x="549" y="124" fill="#E2E8F0" font-size="17" font-weight="bold">LEARN</text>
+  <rect x="676" y="80" width="174" height="74" rx="10" fill="#132A3E" stroke="#255A70"/><text x="763" y="124" fill="#E2E8F0" font-size="17" font-weight="bold">DEPLOY</text>
+  <rect x="890" y="80" width="176" height="74" rx="10" fill="#132A3E" stroke="#255A70"/><text x="978" y="124" fill="#E2E8F0" font-size="17" font-weight="bold">MONITOR</text>
+</g>
+<g stroke="url(#stroke)" stroke-width="2" opacity=".8"><path d="M208 117h40M422 117h40M636 117h40M850 117h40"/></g>
+<g fill="#67E8F9"><circle class="dot" cx="211" cy="117" r="4"/><circle class="dot dot2" cx="211" cy="117" r="4"/><circle class="dot" cx="425" cy="117" r="4"/><circle class="dot dot2" cx="425" cy="117" r="4"/><circle class="dot" cx="639" cy="117" r="4"/><circle class="dot dot2" cx="639" cy="117" r="4"/><circle class="dot" cx="853" cy="117" r="4"/><circle class="dot dot2" cx="853" cy="117" r="4"/></g>
+<text x="38" y="186" fill="#7796A9" font-family="Arial" font-size="12">A connected mindset across data platforms, predictive models, and intelligent interfaces.</text>
+</svg>
